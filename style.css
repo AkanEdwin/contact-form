@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background-image: url("/img/bg-intro-desktop.png");
+	background-color: hsl(0, 100%, 74%);
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 50px;
+}
+.contact-box{
+	max-width: 850px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left{
+	height: 100%;
+	width: 50%;
+	color: white;
+	font-weight: 700;
+}
+
+.right{
+	padding: 25px 40px;
+	width: 50%;
+	text-align: center;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+h2{
+	position: relative;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px 
+	padding-right: 10px;
+	margin-bottom: 10px;
+	background-color: hsl(248, 32%, 49%);
+	font-size: 12px;
+	border-radius: 5px;
+	color: white;
+}
+
+form{
+  border: solid 10px 
+  width: 100%;
+ 
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: hsl(154, 59%, 51%);
+	color: #fff;
+	font-size: 400;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+}
+
+@media screen and (max-width: 375px){
+  .contact-box{
+    display: flex;
+    flex-direction: column;
+  }
+	.right{
+	  width: 100%:
+	}
+	.right{
+	  width: 100%;
+}
+	
